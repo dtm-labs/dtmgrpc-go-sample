@@ -55,7 +55,7 @@ type busiServer struct {
 
 // GrpcStartup for grpc
 func GrpcStartup() {
-	conn, err := grpc.Dial(DtmGrpcServer, grpc.WithInsecure(), grpc.WithBlock(), grpc.WithUnaryInterceptor(dtmgrpc.GrpcClientLog))
+	conn, err := grpc.Dial(DtmGrpcServer, grpc.WithInsecure(), grpc.WithUnaryInterceptor(dtmgrpc.GrpcClientLog))
 	dtmcli.FatalIfError(err)
 	DtmClient = dtmgrpc.NewDtmClient(conn)
 	dtmcli.Logf("dtm client inited")
