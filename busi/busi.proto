@@ -3,16 +3,25 @@ syntax = "proto3";
 package busi;
 
 option go_package = "github.com/yedf/dtmgrpc-go-sample/busi";
-import "dtmgrpc.proto";
 
 // The dtm service definition.
 service Busi {
-  rpc TransInRevert(dtmgrpc.BusiRequest) returns (dtmgrpc.BusiReply) {}
-  rpc TransOutRevert(dtmgrpc.BusiRequest) returns (dtmgrpc.BusiReply) {}
-  rpc TransInConfirm(dtmgrpc.BusiRequest) returns (dtmgrpc.BusiReply) {}
-  rpc TransOutConfirm(dtmgrpc.BusiRequest) returns (dtmgrpc.BusiReply) {}
+  rpc TransInRevert(BusiReq) returns (BusiReply) {}
+  rpc TransOutRevert(BusiReq) returns (BusiReply) {}
+  rpc TransInConfirm(BusiReq) returns (BusiReply) {}
+  rpc TransOutConfirm(BusiReq) returns (BusiReply) {}
 
-  rpc TransInTcc(dtmgrpc.BusiRequest) returns (dtmgrpc.BusiReply) {}
-  rpc TransOutTcc(dtmgrpc.BusiRequest) returns (dtmgrpc.BusiReply) {}
+  rpc TransInTcc(BusiReq) returns (BusiReply) {}
+  rpc TransOutTcc(BusiReq) returns (BusiReply) {}
 }
 
+message BusiReq {
+  int64 Amount = 1;
+  int64 UserID = 2;
+  string TransOutResult = 3;
+  string TransInResult = 4;
+}
+
+message BusiReply {
+  string Message = 1;
+}
