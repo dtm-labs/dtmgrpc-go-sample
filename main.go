@@ -6,18 +6,18 @@ import (
 	"net"
 	"time"
 
-	"github.com/yedf/dtmcli"
-	"github.com/yedf/dtmcli/dtmimp"
-	"github.com/yedf/dtmgrpc"
-	"github.com/yedf/dtmgrpc-go-sample/busi"
-	"github.com/yedf/dtmgrpc/dtmgimp"
+	"github.com/dtm-labs/dtmcli"
+	"github.com/dtm-labs/dtmcli/dtmimp"
+	"github.com/dtm-labs/dtmgrpc"
+	"github.com/dtm-labs/dtmgrpc-go-sample/busi"
+	"github.com/dtm-labs/dtmgrpc/dtmgimp"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )
 
 // DtmGrpcServer dtm grpc service address
-const DtmGrpcServer = "localhost:58080"
+const DtmGrpcServer = "localhost:36790"
 
 // BusiGrpcPort 1
 const BusiGrpcPort = 50589

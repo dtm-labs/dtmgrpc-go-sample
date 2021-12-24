@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package busi;
 
-option go_package = "github.com/yedf/dtmgrpc-go-sample/busi";
+option go_package = "github.com/dtm-labs/dtmgrpc-go-sample/busi";
 
 // The dtm service definition.
 service Busi {
