@@ -3,8 +3,8 @@ module github.com/dtm-labs/dtmgrpc-go-sample
 go 1.15
 
 require (
-	github.com/dtm-labs/dtmcli v1.8.3
-	github.com/dtm-labs/dtmgrpc v1.8.3
+	github.com/dtm-labs/dtmcli v1.8.4
+	github.com/dtm-labs/dtmgrpc v1.8.4
 	github.com/go-resty/resty/v2 v2.7.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.7.0 // indirect
