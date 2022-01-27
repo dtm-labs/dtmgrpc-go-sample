@@ -65,6 +65,8 @@ github.com/dtm-labs/dtmcli v1.10.0 h1:V5r3rfampvcYizRNvP0iHhgG1G3NrCkewO3HT8GHPh
 github.com/dtm-labs/dtmcli v1.10.0/go.mod h1:RScM1n5706gorN5Lreett4YjNJckkj+RJm/ab3gjW2Y=
 github.com/dtm-labs/dtmcli v1.10.2 h1:JS5CRxldwrX4mvR54zYBgbSHjaM1DawSRRQodZlNCjY=
 github.com/dtm-labs/dtmcli v1.10.2/go.mod h1:P3dVK3b45mtLTugpqtUNHF+wtfcbFZ0EW/hJaoN0rEI=
+github.com/dtm-labs/dtmcli v1.11.1 h1:uDH7qH97GM259p6b3QuCUmenTC8EmTMKi9f3/kN02y0=
+github.com/dtm-labs/dtmcli v1.11.1/go.mod h1:P3dVK3b45mtLTugpqtUNHF+wtfcbFZ0EW/hJaoN0rEI=
 github.com/dtm-labs/dtmdriver v0.0.0-20211202092330-86dce681d5db h1:Y8ZADMM3CGQ4k83FwOeDYTu7bkTGtkdboaJKhJ3HInk=
 github.com/dtm-labs/dtmdriver v0.0.0-20211202092330-86dce681d5db/go.mod h1:aeo6ZWiVI0x8P8O18r6uB1cG2uw9BCQyYZaH15MlRDI=
 github.com/dtm-labs/dtmdriver v0.0.0-20211203060147-29426c663b6e h1:xXyb4mr46T5KqR5SXd37ivXNJ33k/MSAAwsGP6btmh8=
@@ -109,6 +111,8 @@ github.com/dtm-labs/dtmgrpc v1.10.0 h1:WcdcTHZulbGAH0pgPHzu/skhwSdvIZ9pSkov/xyiO
 github.com/dtm-labs/dtmgrpc v1.10.0/go.mod h1:/ACkLpqiAwySuYBTqB2Xk036w0GwvtEKTYSNL4prXCE=
 github.com/dtm-labs/dtmgrpc v1.10.2 h1:OivCi8fs6xOjexafgkz8pQbIOCLmIEl5LYXQMRO5ycU=
 github.com/dtm-labs/dtmgrpc v1.10.2/go.mod h1:LHpYNlNUue/+Q9nQUmpqxFgGCS5R8pLMvNF+wX2M7q8=
+github.com/dtm-labs/dtmgrpc v1.11.1 h1:vhPl5e/Wi+TjqTDgdvrsPi/ycsieyueS1A6a79n0m2E=
+github.com/dtm-labs/dtmgrpc v1.11.1/go.mod h1:jD6/inJ3TBJxhOJejgOmDrMfSsRF7QeauGlOPjPcgE0=
 github.com/envoyproxy/go-control-plane v0.9.0/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
 github.com/envoyproxy/go-control-plane v0.9.1-0.20191026205805-5f8ba28d4473/go.mod h1:YTl/9mNaCwkRvm6d1a2C3ymFceY/DCBVvsKhRF0iEA4=
 github.com/envoyproxy/go-control-plane v0.9.4/go.mod h1:6rpuAdCZL397s3pYoYcLgu1mIlRU8Am5FuJP05cCM98=
